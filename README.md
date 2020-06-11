@@ -2,7 +2,8 @@
 
 ## Description
 Our project aims at automatically generating a single sentence describing the content of
-a previously unseen image. We run all the training and testing and validation on windows 10 with a GTX1060 GPU. 
+a previously unseen image. We run all the training and testing and validation on windows 10 with a GTX1060 GPU. We also tested the codes on datahub in the server (ECE 228 - Machine Learn for Phys Applic - Gerstoft [SP20]
+ucsdets/ece228-tf2-notebook:latest, Python 3, nbgrader (1 GPU, 8 CPU, 32G RAM)). The  **demo.ipynb** and **EvalDemo.ipynb** could run perfectly while the **train.py** needs pytorch to work.
 
 ## Requirements
 For a windows platform, do the following:<br>

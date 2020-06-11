@@ -1,4 +1,4 @@
-# Image Captioning
+# Group 8 Project: Image Caption
 
 ## Description
 Our project aims at automatically generating a single sentence describing the content of
@@ -43,6 +43,7 @@ Here is an example:
 >>>>pretrained<br>
 
 ## Usage 
+(Directly go to  Step 4 since the zip file has included everything needed to train and test.)
 
 #### 1. Clone the repositories
 ```bash
@@ -60,7 +61,7 @@ $ make
 $ python setup.py build
 $ python setup.py install
 $ cd ../../
-$ git clone https://github.com/ufocjrufo/Image-Captioning.git
+$ git clone https://github.com/ufocjrufo/Image-Caption.git
 ```
 
 #### 2. Download the dataset
@@ -146,7 +147,4 @@ The configuration of models are shown below:
 | Train1 | resnet152 | 1 | 0.001 | 512 | 5 |
 
 ## Reference
-
-Some codes are borrowed from:<br>
 https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning.<br>
-https://www.tensorflow.org/tutorials/text/image_captioning<br>
